@@ -70,9 +70,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     // 特殊处理 language 键，直接访问
     if (key.startsWith('language.')) {
       const langKey = key.substring('language.'.length);
-      const langValue = dictionaries[language]?.language?.[langKey];
-      if (langValue !== undefined) {
-        return langValue;
+      // 确保 langKey 是有效的语言代码
+      if (langKey in dictionaries[language]?.language!) {
+        return dictionaries[language]!.language![langKey as Language];
       }
     }
 
