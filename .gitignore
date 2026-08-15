@@ -2,3 +2,5 @@ node_modules
 .next
 .next/*
 .next/*.json
+.playwright-mcp
+ui

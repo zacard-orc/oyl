@@ -4,8 +4,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://lh3.googleusercontent.com/aida/AP1WRLv1I0Z7Gm5HABxsB3rrcYsCFrw5BS98pGT65CwSuqqYQuCZNtzNBZkdC9kKoWnoCUDyQRcGFiW1Y4O8W1HemvGRB-zNMo7zwJE-ZHpZLzAujzC1zqbKIiUhwRickMj6GQFe-Q6V5mDRjQgaNqWD4Kk90VrKx2PL0lkFYWAv2hnfBsa9bafOK9ihTV_0lgi6m9t4qIy-sfo9hitF_y1Ltnv7-CrHtfGsH1-q2B8Rf93kE_w-LdCwsFg1eWA')`,
-          opacity: 0.8,
+          backgroundImage: `linear-gradient(135deg, #f9f9f9 0%, #e8e8e8 100%)`,
+          opacity: 1,
         }}
         aria-hidden="true"
       />
