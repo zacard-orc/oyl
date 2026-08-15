@@ -1,0 +1,57 @@
+{
+  "common": {
+    "download": "다운로드",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "hero": {
+    "title": "모든 애프셋을 위한 AI 기반 워크스페이스.",
+    "description": "LLM 워크플로우, 이미지, 비디오, 첨부 파일 및 3D 애프셋을 위한 완벽한 허브. 명확성과 집중을 위해 재설계되었습니다.",
+    "getStarted": "시작하기"
+  },
+  "download": {
+    "title": "모든 기기에서 사용 가능.",
+    "subtitle": "전체 에코시스템에서 원활한 동기화.",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "Apple Silicon 에 최적화된 네이티브 앱.",
+        "action": "다운로드"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Windows 11 을 위한 빠르고 매끄러운 경험.",
+        "action": "다운로드"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "이동 중 생각 기록하기.",
+        "action": "App Store"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "장치에 맞춘 Material Design.",
+        "action": "Google Play"
+      }
+    }
+  },
+  "about": {
+    "title": "장식보다 명확함.",
+    "paragraph1": "우리는 기능적 미니멀리즘 철학을 기반으로 OYL Notes 를 구축했습니다. workspace 는 방해가 되지 않아야 하며, 아이디어가 중심이 되어야 한다고 믿습니다.",
+    "paragraph2": "시각적 잡음을 제거하고 미묘한 색조 레이어링을 활용하여 조직감과 effortless 생산성의 느낌을 불러일으키는 고집중 환경을 만들었습니다."
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ko": "한국어",
+    "th": "ไทย",
+    "da": "Dansk"
+  }
+}

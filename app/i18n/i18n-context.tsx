@@ -6,8 +6,15 @@ import zh from "./zh.json";
 import ja from "./ja.json";
 import ar from "./ar.json";
 import zhTw from "./zh-tw.json";
+import es from "./es.json";
+import fr from "./fr.json";
+import pt from "./pt.json";
+import ru from "./ru.json";
+import ko from "./ko.json";
+import th from "./th.json";
+import da from "./da.json";
 
-export type Language = "en" | "zh" | "zh-tw" | "ja" | "ar";
+export type Language = "en" | "zh" | "zh-tw" | "ja" | "ar" | "es" | "fr" | "pt" | "ru" | "ko" | "th" | "da";
 
 interface I18nContextType {
   language: Language;
@@ -24,6 +31,13 @@ const dictionaries = {
   "zh-tw": zhTw,
   ja,
   ar,
+  es,
+  fr,
+  pt,
+  ru,
+  ko,
+  th,
+  da,
 };
 
 const languageList: Array<{ code: Language; name: string; flag?: string }> = [
@@ -32,6 +46,13 @@ const languageList: Array<{ code: Language; name: string; flag?: string }> = [
   { code: "zh-tw", name: "繁體中文", flag: "🇹🇼" },
   { code: "ja", name: "日本語", flag: "🇯🇵" },
   { code: "ar", name: "العربية", flag: "🇸🇦" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
+  { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "pt", name: "Português", flag: "🇵🇹" },
+  { code: "ru", name: "Русский", flag: "🇷🇺" },
+  { code: "ko", name: "한국어", flag: "🇰🇷" },
+  { code: "th", name: "ไทย", flag: "🇹🇭" },
+  { code: "da", name: "Dansk", flag: "🇩🇰" },
 ];
 
 export function I18nProvider({ children }: { children: ReactNode }) {
@@ -53,6 +74,20 @@ export function I18nProvider({ children }: { children: ReactNode }) {
         setLanguage("ja");
       } else if (browserLang.startsWith("ar")) {
         setLanguage("ar");
+      } else if (browserLang.startsWith("es") || browserLang.startsWith("es-")) {
+        setLanguage("es");
+      } else if (browserLang.startsWith("fr")) {
+        setLanguage("fr");
+      } else if (browserLang.startsWith("pt") || browserLang.startsWith("pt-")) {
+        setLanguage("pt");
+      } else if (browserLang.startsWith("ru")) {
+        setLanguage("ru");
+      } else if (browserLang.startsWith("ko")) {
+        setLanguage("ko");
+      } else if (browserLang.startsWith("th")) {
+        setLanguage("th");
+      } else if (browserLang.startsWith("da")) {
+        setLanguage("da");
       } else {
         setLanguage("en");
       }

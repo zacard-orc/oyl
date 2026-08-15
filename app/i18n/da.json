@@ -1,0 +1,57 @@
+{
+  "common": {
+    "download": "Download",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "hero": {
+    "title": "AI-drevet arbejdsplads til enhver aktiva.",
+    "description": "Det ultimative hub til dine LLM-workflows, billeder, videoer, vedhæftede filer og 3D-aktiver. Genindrettet til klarhed og fokus.",
+    "getStarted": "Kom i gang"
+  },
+  "download": {
+    "title": "Tilgængelig på alle dine enheder.",
+    "subtitle": "Seamless sync på tværs af dit entire økosystem.",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "Native app optimeret til Apple Silicon.",
+        "action": "Download"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Hurtig, flydende oplevelse til Windows 11.",
+        "action": "Download"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "Fang tanker på farten.",
+        "action": "App Store"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "Material Design skræddersyet til din enhed.",
+        "action": "Google Play"
+      }
+    }
+  },
+  "about": {
+    "title": "Klarhed frem for dekoration.",
+    "paragraph1": "Vi byggede OYL Notes på en filosofi om funktionel minimalisme. Vi tror, at dit arbejdsrum skal træde i baggrunden, så dine idéer kan træde frem.",
+    "paragraph2": "Ved at fjerne visuel støj og udnytte subtile tonelag har vi skabt et højt-fokus miljø, der evokerer en følelse af organisation og effortless produktivitet."
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ko": "한국어",
+    "th": "ไทย",
+    "da": "Dansk"
+  }
+}

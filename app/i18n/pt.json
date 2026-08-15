@@ -1,0 +1,57 @@
+{
+  "common": {
+    "download": "Baixar",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "hero": {
+    "title": "Espaço de trabalho com IA para cada ativo.",
+    "description": "O centro definitivo para seus fluxos de trabalho LLM, imagens, vídeos, anexos e ativos 3D. Reimaginado para clareza e foco.",
+    "getStarted": "Começar"
+  },
+  "download": {
+    "title": "Disponível em todos os seus dispositivos.",
+    "subtitle": "Sincronização perfeita em todo o seu ecossistema.",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "Aplicativo nativo otimizado para Apple Silicon.",
+        "action": "Baixar"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Experiência rápida e fluida para Windows 11.",
+        "action": "Baixar"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "Capture pensamentos em movimento.",
+        "action": "App Store"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "Design Material adaptado ao seu dispositivo.",
+        "action": "Google Play"
+      }
+    }
+  },
+  "about": {
+    "title": "Clareza sobre decoração.",
+    "paragraph1": "Construímos o OYL Notes em uma filosofia de minimalismo funcional. Acreditamos que seu espaço de trabalho deve passar despercebido, permitindo que suas ideias ocupem o centro das atenções.",
+    "paragraph2": "Ao eliminar o ruído visual e aproveitar o camadamento sutil de tons, criamos um ambiente de alto foco que evoca uma sensação de organização e produtividade sem esforço."
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ko": "한국어",
+    "th": "ไทย",
+    "da": "Dansk"
+  }
+}
