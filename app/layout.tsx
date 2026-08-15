@@ -90,8 +90,40 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "OYL Notes",
+    applicationCategory: "ProductivityApplication",
+    operatingSystem: "macOS, Windows, iOS, Android",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    description: "The ultimate hub for your LLM workflows, images, videos, attachments, and 3D assets. Reimagined for clarity and focus.",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "1250",
+    },
+    featureList: [
+      "AI-powered note-taking",
+      "Multi-platform sync",
+      "LLM workflow integration",
+      "Support for images, videos, 3D assets",
+      "Material Design interface",
+    ],
+  };
+
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${jetBrainsMono.variable} font-body-md antialiased bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container`}
       >
