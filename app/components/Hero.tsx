@@ -24,9 +24,14 @@ export default function Hero() {
           <p className="font-body-lg text-body-lg text-secondary max-w-xl text-center">
             {t("hero.description")}
           </p>
-          <button className="mt-sm bg-primary-container hover:bg-primary-fixed-dim text-on-primary-container font-label-md text-label-md px-xl py-sm rounded-full transition-colors active:scale-95 shadow-sm border border-primary/10">
+          <a
+            href="https://github.com/zacard-orc/oyl/releases/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-sm bg-primary-container hover:bg-primary-fixed-dim text-on-primary-container font-label-md text-label-md px-xl py-sm rounded-full transition-colors active:scale-95 shadow-sm border border-primary/10 inline-block"
+          >
             {t("hero.getStarted")}
-          </button>
+          </a>
         </div>
       </div>
     </section>

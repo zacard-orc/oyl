@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant flex justify-between items-center px-md h-14 md:px-xl">
       <div className="flex items-center gap-sm">
-        <span className="font-headline-md text-headline-md font-black text-primary">OYL</span>
+        <span className="font-headline-md text-headline-md font-black text-primary">OYL AI NoteApp</span>
       </div>
       <div className="flex items-center gap-md" ref={dropdownRef}>
         <div className="relative">
