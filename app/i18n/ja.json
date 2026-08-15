@@ -1,0 +1,50 @@
+{
+  "common": {
+    "download": "ダウンロード",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "hero": {
+    "title": "すべての資産のための AI パワーワークスペース。",
+    "description": "LLM ワークフロー、画像、動画、添付ファイル、3D アセットの究極のハブ。明確さと集中力を再設計。",
+    "getStarted": "始める"
+  },
+  "download": {
+    "title": "すべてのデバイスで利用可能。",
+    "subtitle": "エコシステム全体でシームレスに同期。",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "Apple Silicon  optimized なネイティブアプリ。",
+        "action": "ダウンロード"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Windows 11 の高速で滑らかな体験。",
+        "action": "ダウンロード"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "外出先でもアイデアを記録。",
+        "action": "App Store"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "デバイス向けにカスタマイズされた Material Design。",
+        "action": "Google Play"
+      }
+    }
+  },
+  "about": {
+    "title": "装飾より明確さを。",
+    "paragraph1": "OYL Notes は機能的ミニマリズムの哲学に基づいて構築されました。ワークスペースは背後に退き、アイデアに主役の座を譲るべきだと信じています。",
+    "paragraph2": "視覚的なノイズを取り除き、微妙なトーンのレイヤリングを活用することで、組織感覚と Effortless な生産性を喚起する高集中環境を作成しました。"
+  },
+  "language": {
+    "en": "英語",
+    "zh": "中国語",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "アラビア語"
+  }
+}

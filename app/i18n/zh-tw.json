@@ -1,0 +1,50 @@
+{
+  "common": {
+    "download": "下載",
+    "appStore": "應用商店",
+    "googlePlay": "谷歌商店"
+  },
+  "hero": {
+    "title": "為所有資產打造的 AI 驅動工作區。",
+    "description": "您 LLM 工作流、圖像、視頻、附件和 3D 資產的終極中心。為清晰和專注而重新構想。",
+    "getStarted": "開始使用"
+  },
+  "download": {
+    "title": "適用於所有設備。",
+    "subtitle": "在整個生態系統中無縫同步。",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "針對 Apple Silicon 優化的原生應用。",
+        "action": "下載"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Windows 11 的流暢體驗。",
+        "action": "下載"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "隨時隨地記錄想法。",
+        "action": "應用商店"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "為您的設備定制的 Material Design。",
+        "action": "谷歌商店"
+      }
+    }
+  },
+  "about": {
+    "title": "清晰勝過裝飾。",
+    "paragraph1": "我們基於功能極簡主義的哲學構建了 OYL Notes。我們相信您的工作區應該退居幕後，讓您的想法成為主角。",
+    "paragraph2": "通過消除視覺噪音並利用微妙的色調分層，我們創造了一個高度專注的環境，帶來有條不紊、毫不費力的生產力感。"
+  },
+  "language": {
+    "en": "英語",
+    "zh": "簡體中文",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "阿拉伯語"
+  }
+}

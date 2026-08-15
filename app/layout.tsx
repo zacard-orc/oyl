@@ -13,7 +13,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OYL Notes - AI-Powered Workspace for Every Asset",
+  title: "OYL(On Your Left) Notes - AI-Powered Workspace for Every Asset",
   description: "The ultimate hub for your LLM workflows, images, videos, attachments, and 3D assets. Reimagined for clarity and focus. Multi-platform sync and AI-enhanced note-taking.",
   keywords: [
     "OYL Notes",
@@ -85,6 +85,8 @@ export const viewport: Viewport = {
   themeColor: "#f9f9f9",
 };
 
+import { Providers } from "./providers";
+
 export default function RootLayout({
   children,
 }: {
@@ -127,7 +129,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${jetBrainsMono.variable} font-body-md antialiased bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container`}
       >
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );

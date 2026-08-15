@@ -1,18 +1,30 @@
+"use client";
+
+import { useI18n } from "../i18n/i18n-context";
+
 export default function DownloadSection() {
+  const { t } = useI18n();
+  const githubUrl = "https://github.com/zacard-orc/oyl/releases/";
+
   return (
     <section className="min-h-screen flex flex-col items-center justify-center py-xl relative bg-surface-container-lowest/50">
       <div className="container-max mx-auto px-md md:px-xl">
         <div className="text-center mb-xl">
           <h2 className="font-headline-lg text-headline-lg text-on-surface">
-            Available on all your devices.
+            {t("download.title")}
           </h2>
           <p className="font-body-md text-body-md text-secondary mt-sm">
-            Seamless sync across your entire ecosystem.
+            {t("download.subtitle")}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-md md:gap-lg">
           {/* macOS Card */}
-          <div className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer">
+          <a
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer"
+          >
             <div className="h-12 w-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
               <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>
                 laptop_mac
@@ -20,20 +32,25 @@ export default function DownloadSection() {
             </div>
             <div>
               <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                macOS
+                {t("download.platforms.macOS.name")}
               </h3>
               <p className="font-body-md text-body-md text-secondary mt-xs">
-                Native app optimized for Apple Silicon.
+                {t("download.platforms.macOS.description")}
               </p>
             </div>
             <span className="font-label-md text-label-md text-primary mt-auto flex items-center gap-xs">
-              Download{" "}
+              {t(`download.platforms.macOS.action`)}{" "}
               <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
             </span>
-          </div>
+          </a>
 
           {/* Windows Card */}
-          <div className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer">
+          <a
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer"
+          >
             <div className="h-12 w-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
               <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>
                 desktop_windows
@@ -41,20 +58,25 @@ export default function DownloadSection() {
             </div>
             <div>
               <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                Windows
+                {t("download.platforms.Windows.name")}
               </h3>
               <p className="font-body-md text-body-md text-secondary mt-xs">
-                Fast, fluid experience for Windows 11.
+                {t("download.platforms.Windows.description")}
               </p>
             </div>
             <span className="font-label-md text-label-md text-primary mt-auto flex items-center gap-xs">
-              Download{" "}
+              {t(`download.platforms.Windows.action`)}{" "}
               <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
             </span>
-          </div>
+          </a>
 
           {/* iOS Card */}
-          <div className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer">
+          <a
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer"
+          >
             <div className="h-12 w-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
               <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>
                 phone_iphone
@@ -62,20 +84,25 @@ export default function DownloadSection() {
             </div>
             <div>
               <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                iOS
+                {t("download.platforms.iOS.name")}
               </h3>
               <p className="font-body-md text-body-md text-secondary mt-xs">
-                Capture thoughts on the go.
+                {t("download.platforms.iOS.description")}
               </p>
             </div>
             <span className="font-label-md text-label-md text-primary mt-auto flex items-center gap-xs">
-              App Store{" "}
+              {t(`download.platforms.iOS.action`)}{" "}
               <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
             </span>
-          </div>
+          </a>
 
           {/* Android Card */}
-          <div className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer">
+          <a
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-xl p-lg flex flex-col items-start gap-md hover:border-primary-container transition-colors group cursor-pointer"
+          >
             <div className="h-12 w-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
               <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>
                 android
@@ -83,17 +110,17 @@ export default function DownloadSection() {
             </div>
             <div>
               <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                Android
+                {t("download.platforms.Android.name")}
               </h3>
               <p className="font-body-md text-body-md text-secondary mt-xs">
-                Material Design tailored for your device.
+                {t("download.platforms.Android.description")}
               </p>
             </div>
             <span className="font-label-md text-label-md text-primary mt-auto flex items-center gap-xs">
-              Google Play{" "}
+              {t(`download.platforms.Android.action`)}{" "}
               <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
             </span>
-          </div>
+          </a>
         </div>
       </div>
     </section>

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "download": "Download",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "hero": {
+    "title": "AI-Powered Workspace for Every Asset.",
+    "description": "The ultimate hub for your LLM workflows, images, videos, attachments, and 3D assets. Reimagined for clarity and focus.",
+    "getStarted": "Get Started"
+  },
+  "download": {
+    "title": "Available on all your devices.",
+    "subtitle": "Seamless sync across your entire ecosystem.",
+    "platforms": {
+      "macOS": {
+        "name": "macOS",
+        "description": "Native app optimized for Apple Silicon.",
+        "action": "Download"
+      },
+      "Windows": {
+        "name": "Windows",
+        "description": "Fast, fluid experience for Windows 11.",
+        "action": "Download"
+      },
+      "iOS": {
+        "name": "iOS",
+        "description": "Capture thoughts on the go.",
+        "action": "App Store"
+      },
+      "Android": {
+        "name": "Android",
+        "description": "Material Design tailored for your device.",
+        "action": "Google Play"
+      }
+    }
+  },
+  "about": {
+    "title": "Clarity over Decoration.",
+    "paragraph1": "We built OYL Notes on a philosophy of functional minimalism. We believe that your workspace should get out of the way, allowing your ideas to take center stage.",
+    "paragraph2": "By stripping away visual noise and leveraging subtle tonal layering, we've created a high-focus environment that evokes a sense of organization and effortless productivity."
+  },
+  "language": {
+    "en": "English",
+    "zh": "简体中文",
+    "zh-tw": "繁體中文",
+    "ja": "日本語",
+    "ar": "العربية"
+  }
+}

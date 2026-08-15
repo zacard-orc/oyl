@@ -1,21 +1,36 @@
+"use client";
+
+import { useI18n } from "../i18n/i18n-context";
+
 export default function AboutSection() {
+  const { t } = useI18n();
+
   return (
-    <section className="min-h-screen flex flex-col justify-between py-xl bg-surface relative">
-      <div className="container-max mx-auto px-md md:px-xl flex-grow flex flex-col justify-center items-center text-center">
+    <section className="min-h-screen flex flex-col justify-between py-xl relative">
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url(/img/log2.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+        aria-hidden="true"
+      />
+      <div className="container-max mx-auto px-md md:px-xl flex-grow flex flex-col justify-center items-center text-center relative z-10">
         <div className="mb-lg">
           <span className="material-symbols-outlined text-4xl text-primary-container bg-surface-container rounded-full p-md inline-flex items-center justify-center shadow-sm">
             psychology
           </span>
         </div>
         <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">
-          Clarity over Decoration.
+          {t("about.title")}
         </h2>
         <div className="font-body-lg text-body-lg text-secondary max-w-2xl space-y-md">
           <p>
-            We built OYL Notes on a philosophy of functional minimalism. We believe that your workspace should get out of the way, allowing your ideas to take center stage.
+            {t("about.paragraph1")}
           </p>
           <p>
-            By stripping away visual noise and leveraging subtle tonal layering, we&apos;ve created a high-focus environment that evokes a sense of organization and effortless productivity.
+            {t("about.paragraph2")}
           </p>
         </div>
       </div>
